@@ -1,0 +1,80 @@
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-title2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.detail-box {
+    padding: 40px 20px 32px;
+    vertical-align: baseline;
+    background: #ffffff;
+    box-shadow: 0 8px 32px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+    margin: 35px 50px;
+    width: 470px;
+}
+
+.detail-box h3 {
+
+    transform: translate(25px,-28px);
+    color: black;
+    font: 20.8px -apple-system;
+    margin-top: 20px;
+}
+.detail-box span {
+    margin-left: 20px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+}
+
+.detail-box li {
+    margin-left: 30px;
+    color: #12141C80;
+    font: 14px -apple-system;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    position: relative;
+}
+.learn-more a {
+    padding: 8px;
+    color: rgba(24, 24, 25, 0.7);
+    border: 1px solid #e6e7e9;
+    border-radius: 70px;
+    font-size: 20px;
+    width: 240px;
+    display:inline-block;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+}
+.learn-more a:link {
+    color: #000000;
+
+}
+
+.learn-more a:visited {
+    color: black;
+}
+
+.learn-more a:hover {
+    color: #c21d0e;
+    border-color: #c21d0e;
+}
+
+.learn-more a:active {
+    color: #0000FF;
+}

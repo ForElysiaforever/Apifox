@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1688712307170') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiazai:before {
+  content: "\e668";
+  font-size: 21px;
+    color: white;
+    border-radius: 10px;
+}
+
+.icon-tuandui:before {
+  content: "\e63e";
+  font-size: 38px;
+    border-radius: 10px;
+}
+
+.icon-xiangxia2:before {
+  content: "\e772";
+  font-size: 21px;
+    color: white;
+    border-radius: 10px;
+}
+
+.icon-xiangmu:before {
+  content: "\e691";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-shoucang:before {
+  content: "\e666";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-yuandaimaxiayoudaima:before {
+  content: "\e7ae";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-shuji:before {
+  content: "\e815";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-shuju01:before {
+  content: "\e63a";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-tiaoshi:before {
+  content: "\e75f";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-duigou:before {
+  content: "\ebe6";
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.icon-jicheng-A:before {
+  content: "\e616";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-guancha-:before {
+  content: "\e61e";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-youjiantou:before {
+  content: "\e602";
+  font-size: 38px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.icon-api:before {
+  content: "\e768";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-ceshi:before {
+  content: "\e853";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-odbc:before {
+  content: "\e93a";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-CZ_016:before {
+  content: "\e61f";
+  font-size: 38px;
+  border-radius: 10px;
+}
+
+.icon-wendang:before {
+  content: "\100a6";
+  font-size: 38px;
+  border-radius: 10px;
+}
+

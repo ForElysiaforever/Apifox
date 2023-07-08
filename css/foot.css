@@ -1,0 +1,97 @@
+.block1 img {
+
+    width: 110px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.block1 {
+    display: block;
+    width: 100px;
+    transform: translate(0 ,-50px);
+}
+
+.footer {
+    background: #181819;
+    display: block;
+    padding: 0 0 40px 0;
+}
+.block1 p {
+    font: 16px -apple-system;
+}
+
+.block1, .block2 {
+    padding: 0;
+    line-height: 23px;
+    font-size: 16px;
+    margin: 0;
+    flex-grow: 0.25;
+}
+
+.block2 {
+    transform:translate(120px ) ;
+}
+.block2 a {
+    margin-top: 20px;
+}
+
+.footer div:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 44px;
+    height: 100%;
+    max-width: 1244px;
+    position: relative;
+    margin: auto;
+    will-change: transform;
+    overflow: hidden;
+}
+
+.block1 a {
+    color: rgb(199, 189, 189);
+    display: block;
+}
+
+.block2 a {
+    color: rgb(199, 189, 189);
+    display: block;
+}
+
+.footer p {
+    color: rgb(199, 189, 189);
+}
+
+.footer h2 {
+    color: rgb(199, 189, 189);
+}
+
+.divider {
+    width: 100%;
+    border: #626263 solid 1px;
+}
+
+.friend-link {
+    width: 100%;
+    color: #999999;
+    font-size: 16px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+    text-align: center;
+    line-height: 20px;
+}
+.friend-link a {
+    margin-left: 16px;
+    font-style: normal;
+    color: #999999;
+}
+
+.friend-link {
+    width: 100%;
+    color: #999999;
+    font-size: 16px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+    text-align: center;
+    line-height: 20px;
+}

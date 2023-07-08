@@ -1,0 +1,51 @@
+.side-list img{
+    width: 125px;
+    height: 100px;
+}
+
+.side-list{
+    overflow: hidden;
+    clear: both; 
+}
+
+.side-list ul {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.side-list>ul>li {
+    margin: 7px;
+}
+
+.main-object {
+     display: flex;
+    float: left;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.object-box {
+   text-align: center;
+   width: 20%;
+}
+
+.object-box img {
+    height: 50px;
+    width: 50px;
+}
+
+.main-object div {
+    text-align: center;
+    flex-grow: 0.2;
+    cursor: pointer;
+    display: flex;
+    margin: 0 5px;
+}
+.main-object span:nth-child(2) {
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-left: 5px;
+    font: 18px -apple-system;
+    font-size: 25px;
+}
