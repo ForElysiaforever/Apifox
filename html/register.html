@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div class="login">
+        <h1>注册</h1>
+        <form>
+            <div>
+                <p>昵称:</p>
+                <input id="name" type="text" name="user"><br>
+                <p id="cw1"></p>
+            </div>
+            <div style="transform: translate(-12px);">
+                <p>用户名:</p>
+                <input id="username" type="text" name="user"><br>
+                <p id="cw2"></p>
+            </div>
+            <div>
+                <p>邮箱:</p>
+                <input id="email" type="text" name="email"><br>
+                <p id="cw3"></p>
+            </div>
+            <div style="transform: translate(-10px);">
+                <p>登陆密码:</p>
+                <input id="password1" type="password" name="password1">
+                <img id="eye" src="../img/login/yincang.png" style="transform: translate(-30px,5px);"><br>
+                <p id="cw4"></p>
+            </div>
+            <div style="transform: translate(-25px);">
+                <p>确认密码:</p>
+                <input id="password2" type="password" name="password2"><br>
+                <p id="cw5"></p>
+            </div>
+        </form>
+        <div class="button">
+            <button class="login-button" onclick="back()">返回</button>
+            <button class="login-button" onclick="sginUp()">注册</button>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>
