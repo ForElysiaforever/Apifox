@@ -9,6 +9,7 @@ function sginUp() {
             if (checkemail()) {
                 if (checkPassword()) {
                     if (okPassword()) {
+                        read();
                         alert("注册成功！");
                         self.location = "login.html";
                     }
@@ -18,8 +19,40 @@ function sginUp() {
     }
 }
 
+let account = {
+};
+let arr = [];
+let account2 = [];
+let i = 0;
+let readed = localStorage.getItem("account");
+
 function store() {
-    let
+    account.nickname = document.getElementById("name").value;
+    account.accountNumber = document.getElementById("username").value;
+    account.email = email = document.getElementById("email").value;
+    account.password = document.getElementById("password1").value;
+}
+
+function read() {
+    while (true) {
+        if (readed != null || readed != undefined) {
+            arr = JSON.parse(readed);
+            if (arr[i] != undefined) {
+                account2[i] = arr[i];
+            } else{
+                store();
+                account2[i] = account;
+                localStorage.setItem("account",JSON.stringify(account2));
+                break;
+            }
+        } else {
+            store();
+            account2[0] = account;
+            localStorage.setItem("account",JSON.stringify(account2));
+            break;
+        }
+        i++;
+    }
 }
 
 function back() {

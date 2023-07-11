@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let shuz = []
+        let newA = {
+            ewaf :"feaw",
+        };
+
+        for (let i = 0; i>=0; i++){
+            let jso = localStorage.getItem("arr");
+            let sfwa =JSON.parse(jso);
+            if (sfwa[i] != "undefined") {
+                alert ("fewafwa")
+                 shuz[i] = sfwa[i]
+            }else{
+                alert("5")
+                shuz[i] = newA;
+                localStorage.setItem("arr",JSON.stringify(shuz))
+                break;
+            }
+        }
+
+        
+    </script>
+</body>
+
+</html>
